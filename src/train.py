@@ -18,8 +18,8 @@ import torch.nn as nn
 from torch.optim import AdamW
 from tqdm import tqdm
 
-from data import DataConfig, get_dataloaders
-from model import TransformerClassifier
+from .data import DataConfig, get_dataloaders
+from .model import TransformerClassifier
 
 
 # -----------------------------
