@@ -1,0 +1,51 @@
+text,true_label,pred_label,pred_confidence
+"I would like to know why my payment is still pending, can you help?",pending_transfer,pending_card_payment,0.9732260704040527
+My transfer is pending.,balance_not_updated_after_bank_transfer,pending_transfer,0.9709347486495972
+Where do I find the exchange rate?,exchange_charge,exchange_rate,0.9665298461914062
+Where can I view my PIN?,pin_blocked,get_physical_card,0.9625604152679443
+How long does it take for an international transfer into my account?,balance_not_updated_after_bank_transfer,transfer_timing,0.9517877697944641
+how many transactions can i make with a disposable card,get_disposable_virtual_card,disposable_card_limits,0.9412442445755005
+How do I unblock my card using the app?,card_not_working,pin_blocked,0.938186526298523
+What other methods are there to verify my identity?,why_verify_identity,verify_my_identity,0.9324623942375183
+What can I use a virtual disposable card for?,disposable_card_limits,get_disposable_virtual_card,0.9307893514633179
+I would like a temporary virtual card,get_disposable_virtual_card,getting_virtual_card,0.9285744428634644
+I won't verify my identity.,why_verify_identity,unable_to_verify_identity,0.924370527267456
+Am I able to exchange currencies?,fiat_currency_support,exchange_via_app,0.9179314374923706
+How many virtual cards do I get?,disposable_card_limits,getting_virtual_card,0.9067640900611877
+Can I exchange currencies?,fiat_currency_support,exchange_via_app,0.9010332822799683
+What is the need to verify my identity?,why_verify_identity,verify_my_identity,0.9007930159568787
+how do i get a virtual card for one time use,get_disposable_virtual_card,getting_virtual_card,0.8971686959266663
+whats your exchange rate,exchange_charge,exchange_rate,0.8970586657524109
+Do I need to verify my identity?,why_verify_identity,verify_my_identity,0.8925590515136719
+"I was double charged, and the second charge is showing as ""pending"". How long will it be before I get my money back once the second charge has been refunded?",pending_card_payment,transaction_charged_twice,0.8894429802894592
+How long does a UK transfer take?,balance_not_updated_after_bank_transfer,transfer_timing,0.8868186473846436
+What are the fees for top-ups?,top_up_by_bank_transfer_charge,top_up_by_card_charge,0.8838872313499451
+Is there a fee for exchanging cash?,wrong_exchange_rate_for_cash_withdrawal,exchange_charge,0.8837891817092896
+The app wouldn't accept my top up.,top_up_reverted,top_up_failed,0.8826189041137695
+My cash withdrawal was partly declined,wrong_amount_of_cash_received,declined_cash_withdrawal,0.8823038339614868
+Will declined funds I tried to withdraw be returned to me?,wrong_amount_of_cash_received,declined_cash_withdrawal,0.8822789192199707
+Where did this fee come from?,extra_charge_on_statement,card_payment_fee_charged,0.8815267086029053
+How can I create many temporary cards daily?,disposable_card_limits,getting_spare_card,0.8779789805412292
+Do I really need to verify my identity?,why_verify_identity,verify_my_identity,0.8737434148788452
+My non-physical card will not work,virtual_card_not_working,card_not_working,0.871999204158783
+My card is just not working at this time.,virtual_card_not_working,card_not_working,0.8686922788619995
+Will you reinstate my PIN?,pin_blocked,change_pin,0.8610615730285645
+When will I get my card?,card_arrival,card_delivery_estimate,0.8609781861305237
+what is the identity check?,why_verify_identity,verify_my_identity,0.848592221736908
+My card is being declined for a purchase. I bought items before and the card worked. Do you know what the problem is?,reverted_card_payment?,declined_card_payment,0.847790002822876
+How can I check the exchange rate applied to my transaction?,card_payment_wrong_exchange_rate,exchange_rate,0.8471184968948364
+I'm just wondering when my card will get here.,card_delivery_estimate,card_arrival,0.8415741920471191
+When I try and to buy something using my card it keeps getting declined.,declined_transfer,declined_card_payment,0.8400190472602844
+Where should my card work?,card_acceptance,card_not_working,0.8376920223236084
+Do I have to verify my identity?,why_verify_identity,verify_my_identity,0.828831672668457
+Is GBP a supported currency?,receiving_money,exchange_via_app,0.8282561302185059
+What is the point of an identity check?,why_verify_identity,verify_my_identity,0.8269420862197876
+"Hi, i don't know what's going on i've just paid for my top up twice by accident can you help me get a refund please.",top_up_reverted,transaction_charged_twice,0.8266482949256897
+What should I do to get transactions off of my account if I didn't make them?  My card must have been compromised and I need to freeze it asap!,card_payment_not_recognised,compromised_card,0.8253515958786011
+How long do transfer pend for?,pending_transfer,transfer_timing,0.8222339153289795
+How long until my transfer will be available to me,balance_not_updated_after_bank_transfer,transfer_timing,0.8198516964912415
+How long can I expect a transfer to pend for?,pending_transfer,transfer_timing,0.8172805309295654
+On my last transaction it seem that my top-up was not successful.,top_up_reverted,top_up_failed,0.8154558539390564
+How much does it cost in fees to use your card?,order_physical_card,card_payment_fee_charged,0.8108608722686768
+How long does a card delivery take?,card_arrival,card_delivery_estimate,0.8103768825531006
+I bought something and returned it and the money from the return isn't in my account.,Refund_not_showing_up,reverted_card_payment?,0.806950569152832

@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "accuracy": 0.9081168831168831,
+    "macro_f1": 0.90813915245052,
+    "micro_f1": 0.9081168831168831
+  },
+  "ckpt": "results/model_epoch3.pt",
+  "config": {
+    "model_name": "distilbert-base-uncased",
+    "max_length": 128,
+    "batch_size": 32,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "epochs": 3,
+    "dropout": 0.1,
+    "out_dir": "results",
+    "seed": 42
+  }
+}
